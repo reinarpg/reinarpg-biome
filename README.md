@@ -7,7 +7,7 @@ Represent a minecraft biome with its associated data
 ## Usage
 
 ```js
-const registry = require('prismarine-registry')('1.8')
+const registry = require('reinarpg-registry')('1.8')
 const Biome = require("reinarpg-biome")(registry);
 
 const ocean = new Biome(registry.biomesByName.ocean.id)

@@ -14,7 +14,7 @@
     "url": "https://github.com/PrismarineJS/reinarpg-biome.git"
   },
   "peerDependencies": {
-    "prismarine-registry": "^1.1.0"
+    "reinarpg-registry": "^1.1.0"
   },
   "devDependencies": {
     "standard": "^17.0.0"

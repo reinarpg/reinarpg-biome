@@ -1,4 +1,4 @@
-import Registry from 'prismarine-registry'
+import Registry from 'reinarpg-registry'
 
 declare class Biome {
   id: number
