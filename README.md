@@ -1,6 +1,6 @@
-# prismarine-biome
-[![NPM version](https://img.shields.io/npm/v/prismarine-biome.svg)](http://npmjs.com/package/prismarine-biome)
-[![Build Status](https://github.com/PrismarineJS/prismarine-biome/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-biome/actions?query=workflow%3A%22CI%22)
+# reinarpg-biome
+[![NPM version](https://img.shields.io/npm/v/reinarpg-biome.svg)](http://npmjs.com/package/reinarpg-biome)
+[![Build Status](https://github.com/PrismarineJS/reinarpg-biome/workflows/CI/badge.svg)](https://github.com/PrismarineJS/reinarpg-biome/actions?query=workflow%3A%22CI%22)
 
 Represent a minecraft biome with its associated data
 
@@ -8,7 +8,7 @@ Represent a minecraft biome with its associated data
 
 ```js
 const registry = require('prismarine-registry')('1.8')
-const Biome = require("prismarine-biome")(registry);
+const Biome = require("reinarpg-biome")(registry);
 
 const ocean = new Biome(registry.biomesByName.ocean.id)
 console.log(ocean)
